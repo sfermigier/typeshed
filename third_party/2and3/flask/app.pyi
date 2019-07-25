@@ -56,7 +56,7 @@ _ViewFunc = Callable[
         Tuple[_Body, _Status, _Headers],
         Tuple[_Body, _Status],
         Tuple[_Body, _Headers],
-        Dict[Any, Any],
+        Dict[str, Any],
     ]
 ]
 _VT = TypeVar('_VT', bound=_ViewFunc)
